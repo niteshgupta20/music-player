@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+		integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./css/utility.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	<title>Music Player</title>
+</head>
+
+<body>
+	<div class="container">
+		<header class="flex">
+			<!-- logo -->
+			<div class="left flex">
+				<div class="logo flex">
+					<img src="./images/logo.png" alt="">
+					<div class="logo-name">
+						<span>Ninja</span> <br />
+						<span>Studio</span>
+					</div>
+				</div>
+				<!-- Favourites -->
+				<div class="">
+					<a href="#">Favourites</a>
+				</div>
+			</div>
+			<!-- Nav -->
+			<nav class="flex">
+				<!-- search -->
+				<div class="search">
+					<i class="fa-solid fa-magnifying-glass" id="search"></i>
+					<input type="text" placeholder="Search">
+					<i class="fa-solid fa-microphone" id="microphone"></i>
+				</div>
+				<div class="notification">
+					<i class="fa-solid fa-bell"></i>
+				</div>
+				<div>
+					<img src="./images/profilepic.png" alt="">
+				</div>
+			</nav>
+		</header>
+	</div>
+	<main>
+		<section class="box banner">
+			<div class="banner-img"><a href=""><img src="images/new_banner1.jpg" alt=""></a></div>
+			<div class="banner-img"><a href=""><img src="images/new_banner2.jpg" alt=""></a></div>
+			<div class="banner-img"><a href=""><img src="images/new_banner3.jpg" alt=""></a></div>
+		</section>
+		<section class="box latest-release">
+			<div class="section-heading">
+				<h3>Latest Release</h3>
+			</div>
+			<div class="latest-release-container">
+				<div class="latest-release-card">
+					<div class="latest-release-song">
+						<div class="latest-release-card-img"><img src="images/onism.jpg" alt=""></div>
+						<div class="latest-release-card-description">
+							<div class="latest-release-song-name"><span>Onism</span></div>
+							<div class="latest-release-date"><span>8/11/2017</span></div>
+						</div>
+					</div>
+					<div class="latest-release-icon">
+						<div><i class="fas fa-ellipsis-h"></i></div>
+						<div><span>4:44</span></div>
+					</div>
+				</div>
+				<div class="latest-release-card">
+					<div class="latest-release-song">
+						<div class="latest-release-card-img"><img src="images/onism.jpg" alt=""></div>
+						<div class="latest-release-card-description">
+							<div class="latest-release-song-name"><span>Onism</span></div>
+							<div class="latest-release-date"><span>8/11/2017</span></div>
+						</div>
+					</div>
+					<div class="latest-release-icon">
+						<div><i class="fas fa-ellipsis-h"></i></div>
+						<div><span>4:44</span></div>
+					</div>
+				</div>
+				<div class="latest-release-card">
+					<div class="latest-release-song">
+						<div class="latest-release-card-img"><img src="images/onism.jpg" alt=""></div>
+						<div class="latest-release-card-description">
+							<div class="latest-release-song-name"><span>Onism</span></div>
+							<div class="latest-release-date"><span>8/11/2017</span></div>
+						</div>
+					</div>
+					<div class="latest-release-icon">
+						<div><i class="fas fa-ellipsis-h"></i></div>
+						<div><span>4:44</span></div>
+					</div>
+				</div>
+				<div class="latest-release-card">
+					<div class="latest-release-song">
+						<div class="latest-release-card-img"><img src="images/onism.jpg" alt=""></div>
+						<div class="latest-release-card-description">
+							<div class="latest-release-song-name"><span>Onism</span></div>
+							<div class="latest-release-date"><span>8/11/2017</span></div>
+						</div>
+					</div>
+					<div class="latest-release-icon">
+						<div><i class="fas fa-ellipsis-h"></i></div>
+						<div><span>4:44</span></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="box popular-artist">
+			<div class="section-heading">
+				<h3>Popular Artist</h3>
+			</div>
+			<div class="section-container">
+				<div class="artist-img">
+					<a href="./artist.html"><img src="images/charlieputh2.jpg" alt="artist img"></a>
+					<span>Charlie Puth</span>
+				</div>
+				<div class="artist-img">
+					<a href="./artist.html"><img src="images/edshreean.jpg" alt="artist img"></a>
+					<span>Ed Sheeran</span>
+				</div>
+				<div class="artist-img">
+					<a href="./artist.html"><img src="images/arigit.jpg" alt="artist img"></a>
+					<span>Arjit Singh</span>
+				</div>
+				<div class="artist-img">
+					<a href="./artist.html"><img src="images/zayn.jpg" alt="artist img"></a>
+					<span>Zayn</span>
+				</div>
+				<div class="artist-img">
+					<a href="./artist.html"><img src="images/justin.webp" alt="artist img"></a>
+					<span>Justin Bieber</span>
+				</div>
+				<div class="artist-img">
+					<a href="./artist.html"><img src="images/jubinnautiyal.jpg" alt="artist img"></a>
+					<span>Charlie Puth</span>
+				</div>
+			</div>
+		</section>
+		<section class="box stations">
+			<div class="station-logo">
+				<img src="./images/designforplayer.PNG" alt="">
+			</div>
+			<div class="station-img">
+				<img src="./images/love.jpg" alt="">
+				<span class="absolute-center">Love</span>
+			</div>
+			<div class="station-img">
+				<img src="./images/retro2.jpg" alt="">
+				<span class="absolute-center">Retro</span>
+			</div>
+			<div class="station-img">
+				<img src="./images/chill.jpg" alt="">
+				<span class="absolute-center">Chill</span>
+			</div>
+			<div class="station-img">
+				<img src="./images/workout.jpg" alt="">
+				<span class="absolute-center">workout</span>
+			</div>
+			<div class="station-img">
+				<img src="./images/rock.jpg" alt="">
+				<span class="absolute-center">Rock</span>
+			</div>
+			<div class="station-img">
+				<img src="./images/pop2.jpg" alt="">
+				<span class="absolute-center">Pop</span>
+			</div>
+		</section>
+		<section class="box party">
+			<div class="party-img">
+				<img src="./images/party.jpg" alt="">
+				<span class="absolute-center">Party</span>
+			</div>
+			<div class="party-img">
+				<img src="./images/electronics2.jpg" alt="">
+				<span class="absolute-center">Electronics</span>
+			</div>
+			<div class="party-img">
+				<img src="./images/roadtrip.jpg" alt="">
+				<span class="absolute-center">Road Trip</span>
+			</div>
+		</section>
+		<section class="box latest-english">
+			<div class="section-heading">
+				<h2>Latest English</h2>
+			</div>
+			<div class="section-container">
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/love.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/new_skin.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/roadtrip.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/worry_bout_us.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/mirage2.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/attention.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="box latest-hindi">
+			<div class="section-heading">
+				<h2>Latest Hindi</h2>
+			</div>
+			<div class="section-container">
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/love.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/new_skin.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/roadtrip.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/worry_bout_us.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/mirage2.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+				<div class="language-card">
+					<div class="artist-img not-rounded">
+						<img src="./images/attention.jpg" alt="">
+					</div>
+					<div class="about-card">
+						<span>Onism</span>
+						<span>Aug 12 2019</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<aside class="box queue">
+			<div class="queue-container">
+				<div class="queue-heading">
+					<h2>Queue</h2>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">01</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">02</div>
+						<div class="song-img"><img src="./images/worry_bout_us.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">03</div>
+						<div class="song-img"><img src="./images/new_skin.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">04</div>
+						<div class="song-img"><img src="./images/attention.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">05</div>
+						<div class="song-img"><img src="./images/latinsong.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">06</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">07</div>
+						<div class="song-img"><img src="./images/worry_bout_us.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">08</div>
+						<div class="song-img"><img src="./images/killers.png" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">09</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">10</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">11</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">12</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">13</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">14</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">15</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">16</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<div class="queue-card">
+					<div class="queue-card-details">
+						<div class="index">17</div>
+						<div class="song-img"><img src="./images/mirage.jpg" alt=""></div>
+						<div>
+							<div class="song-name">
+								<span>Mirage</span>
+							</div>
+							<div class="album-name">
+								<span>Rosie Lowe</span>
+							</div>
+						</div>
+					</div>
+					<div class="heart-icon">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</main>
+	<!-- footer section -->
+	<footer class="footer flex">
+		<div class="album-container flex">
+			<div class="album-img">
+				<img src="images/killers.png" alt="">
+			</div>
+			<div class="albumname-song-artist">
+				<div class="albumname-song"><span>Imagine by John</span></div>
+				<div class="albumname-artist">John Lenon</div>
+			</div>
+			<div class="albumname_heart_icon"><i class="far fa-heart"></i></div>
+			<div class="albumname_ban_icon"><i class="fas fa-ban"></i></div>
+		</div>
+		<div class="controls-control flex">
+			<div class="playpause-icons flex">
+				<div class="shuffle-icon"><i class="fas fa-random"></i></div>
+				<div class="go_back-icon"><i class="fas fa-step-backward"></i></div>
+				<div class="play-pause-icon"><i class="far fa-pause-circle"></i></div>
+				<div class="go-next-icon"><i class="fas fa-step-forward"></i></div>
+				<div class="repeat-icon"><i class="fas fa-redo-alt"></i></div>
+			</div>
+			<div class="playpause-playbar flex">
+				<div class="start-time">1:39</div>
+				<div class="playbar">
+					<input type="range" name="" id="" min="0" max="100">
+				</div>
+				<div class="end-time">4:44</div>
+			</div>
+		</div>
+		<div class="flex audio-container">
+			<div class="favourite-play-icon"><i class="fas fa-stream"></i></div>
+			<div class="sound-setting-icon"><i class="fas fa-laptop"></i></div>
+			<div class="volume-icon"><i class="fas fa-volume-up"></i></div>
+			<div class="sound-volume-bar-icon">
+				<div class="sound-volume-bar-icon-color">
+					<input type="range" name="" id="" min="0" max="20">
+				</div>
+			</div>
+			<div class="expandpage-icon"><i class="fas fa-expand"></i></div>
+		</div>
+	</footer>
+</body>
+
+</html>
