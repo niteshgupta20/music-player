@@ -83,6 +83,7 @@ main {
   grid-column: 2 / 3;
   grid-row: 1 / 14;
   position: relative;
+  width: 22.2rem;
 }
 
 .queue::-webkit-scrollbar {
@@ -164,6 +165,11 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.index {
+  font-size: 0.7rem;
+  color: var(--secondary-text-color);
 }
 
 .queue-card-details {
